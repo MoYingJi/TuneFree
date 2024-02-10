@@ -21,7 +21,7 @@ export default defineConfig({
     lastUpdatedText: "最后更新于",
     docFooter: { prev: '上一篇', next: '下一篇' },
     editLink: {
-      pattern: 'https://github.com/GSQZ/CSMusic/edit/master/:path',
+      pattern: 'https://github.com/GSQZ/TuneFree/edit/master/:path',
       text: '在Github编辑此页'
     },
     logo: '/logo.png',
