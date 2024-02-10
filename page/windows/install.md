@@ -1,21 +1,99 @@
 # TuneFree
->😣真想有一天，可以在一个平台听到所有想听的歌...  
 
-TuneFree基于开源项目SPlayer进行二次开发，项目地址[SPlayer](https://github.com/imsyy/SPlayer)  
+> 随心所遇，音乐无界 - 音遇自由  
 
-![TuneFreeV1.0.0](https://s11.ax1x.com/2024/02/08/pF1Oh3q.png "pic")
-## 如何安装程序
-💡你可以从点击蓝色链接获取 TuneFree for Windows客户端的最新安装程序：[TuneFree安装器](https://sayqz.lanpv.com/s/tunefree)  
-当您拿到安装程序后，右键安装程序，在弹出的菜单中单击 **以管理员身份运行**  ，此后根据指引一步一步安装运行即可！ 
-*** 
-### ❓为什么安装程序莫名其妙不见了
-这很简单，因为被杀毒软件杀掉了/(ㄒoㄒ)/~~无论您使用的是火绒也好，360也罢，TuneFree安装程序都会被当作病毒从而被消灭，解决办法是提前创建好一个文件夹，并将该文件夹加入到杀毒软件的白名单中，此后在安装程序中选择安装目录时也应选择该目录！若您是尊贵的Windows defender用户，那么您只需关闭云提供的保护与实时保护功能即可！   
+::: warning 警告
+由于 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) 项目已停止维护，由于接口状态的不可确定性，将无法保障功能的正常使用，本项目将会在2024年3月5日停止更新和维护。本项目基于开源项目[SPlayer](https://github.com/imsyy/SPlayer)进行二次开发，故产生的一切责任都与SPlayer以及他的开发者无关！
+:::
 
+-Tips：该文档大部分内容引用了SPlayer仓库中的README.md
 
-## 我需要下载简繁音乐
-💡你可以从点击蓝色链接获取 简繁音乐Windows客户端 最新安装程序：[简繁音乐安装器](https://cdn.sayqz.com/csm/install.exe)  
-当您拿到安装程序后，右键安装程序，在弹出的菜单中单击 **以管理员身份运行**  ，此后根据指引一步一步安装运行即可！ 
-请注意，TuneFree为简繁音乐的更替版本，简繁音乐不会再进行任何更新和维护！简繁音乐没有停止服务是考虑到电脑配置较低或系统版本较低的用户！[简繁音乐沙箱分析结果](https://habo.qq.com/file/showdetail?md5=5c3514fe129faa1ec69627b0636ccf68&pk=ADYGZl1uB2cIOFs7U2E%3D "分析结果")  
+![main](https://s11.ax1x.com/2024/02/11/pF3IGlD.png)  
 
-![简繁音乐V2.0.0](https://s11.ax1x.com/2024/01/16/pFF5KJS.png "pic")
+## 👀 Demo
+- [TuneFree网页端](https://pt.sayqz.com/)
+- [TuneFree for Windows下载](https://sayqz.lanpv.com/s/tunefree)
+## 🎉 功能
+- 🎵 **支持播放所有付费资源以及部分无版权歌曲（无版权歌曲可能会与原曲不匹配）**
+- 🆕 软件内检查更新
+- ✨ 支持扫码登录
+- 📱 支持手机号登录
+- 📅 自动进行每日签到及云贝签到
+- 🎨 封面主题色自适应
+- 📁 本地歌曲管理及分类（建议先使用 [音乐标签](https://www.cnblogs.com/vinlxc/p/11347744.html) 进行匹配后再使用）
+- ⬇️ 下载歌曲（最高支持 Hi-Res）
+- ➕ 新建歌单及歌单编辑
+- ❤️ 收藏 / 取消收藏歌单或歌手
+- 🎶 每日推荐歌曲
+- 📻 私人 FM
+- ☁️ 云盘音乐上传
+- 📂 云盘内歌曲播放
+- 🔄 云盘内歌曲纠正
+- 🗑️ 云盘歌曲删除
+- 📝 支持逐字歌词
+- 🔄 歌词滚动以及歌词翻译
+- 📹 MV 与视频播放
+- 🎶 音乐频谱显示
+- ⏭️ 音乐渐入渐出
+- 🔄 支持 PWA
+- 💬 支持评论区及评论点赞
+- 🌓 明暗模式自动 / 手动切换
+- 📱 移动端基础适配
 
+## 🖼️ 预览
+
+> 开发中，仅供参考  
+
+<details>
+<summary>主页面</summary>
+<img src="https://s11.ax1x.com/2024/02/11/pF35LJf.png" alt="TuneFree" title="主页面">
+</details>
+<details>
+<summary>播放页面</summary>
+<img src="https://s11.ax1x.com/2024/02/11/pF35xyQ.png" alt="TuneFree" title="播放页面">
+</details>
+<details>
+<summary>发现页面</summary>
+<img src="https://s11.ax1x.com/2024/02/11/pF35zLj.png" alt="TuneFree" title="发现页面">
+</details>
+<details>
+<summary>歌单页面</summary>
+<img src="https://s11.ax1x.com/2024/02/11/pF3I9wn.png" alt="TuneFree" title="歌单页面">
+</details>
+<details>
+<summary>评论页面</summary>
+<img src="https://s11.ax1x.com/2024/02/11/pF3IFYV.png" alt="TuneFree" title="评论页面">
+</details>
+<details>
+<summary>本地音乐</summary>
+<img src="https://s11.ax1x.com/2024/02/11/pF3ICoq.png" alt="TuneFree" title="本地歌曲">
+</details>
+
+## 📦️ 获取
+
+### TuneFree for Windows
+
+通常情况下，可以在 `QQ群` 中或 `蓝奏云` 中获取到程序安装包
+- [QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=-u9iXpQhEL7vvjZ378UPxdT1i2RJNRTx&jump_from=webapi&authKey=mgKmYSJCsHnaxAilZjoMaukCyiKS2OTmHhvO7pxEad8KF6F9Ihmg359iFV/560B3)
+- [蓝奏云](https://sayqz.lanpv.com/s/tunefree)
+
+### TuneFree for Windows 源代码
+可前往 `Github` 或 `Gitee` 中搜索TuneFree获取相关源代码
+
+## 📢 免责声明
+
+再次声明，本项目基于开源项目SPlayer进行二次开发，故产生的一切责任都与SPlayer以及他的开发者无关！，**仅供个人学习研究使用，禁止用于商业及非法用途**
+
+同时，本项目开发者承诺 **没有任何破解网易音乐等相关情况，只是使用了我自己会员账号的Cookie进行了请求，请求使用的链接为网易云音乐官方的API** 
+
+## 📜 SPlayer开源许可
+
+- 原项目基于 [GNU Affero General Public License (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html) 许可进行开源
+- 以下是来自原项目的开源许可
+  1. **修改和分发：** 任何对本项目的修改和分发都必须基于 AGPL-3.0 进行，源代码必须一并提供
+  2. **派生作品：** 任何派生作品必须同样采用 AGPL-3.0，并在适当的地方注明原始项目的许可证
+  3. **注明原作者：** 在任何修改、派生作品或其他分发中，必须在适当的位置明确注明原作者及其贡献
+  4. **免责声明：** 根据 AGPL-3.0，本项目不提供任何明示或暗示的担保。请详细阅读 [GNU Affero General Public License (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html) 以了解完整的免责声明内容
+  5. **社区参与：** 欢迎社区的参与和贡献，我们鼓励开发者一同改进和维护本项目
+  6. **许可证链接：** 请阅读 [GNU Affero General Public License (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html) 了解更多详情  
+- TuneFree将遵守该开源许可，感谢SPlayer这一优秀的项目！更多详细说明请前往[SPlayer仓库](https://github.com/imsyy/SPlayer)了解！

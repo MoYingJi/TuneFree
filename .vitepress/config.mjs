@@ -62,7 +62,8 @@ export default defineConfig({
       {
         text: '💻Windows客户端',
         items: [
-          { text: '如何安装程序', link: '/page/windows/install' },
+          { text: '介绍', link: '/page/windows/install' },
+          { text: '简繁音乐', link: '/page/windows/CSMusic' },
           { text: '常见问题', link: '/page/windows/help' }
         ]
       },
