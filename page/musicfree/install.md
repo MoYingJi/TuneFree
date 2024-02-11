@@ -1,14 +1,25 @@
-# MusicFree Js V0.X.X
->😣真想有一天，可以在一个平台听到所有想听的歌...  
+# MusicFree Js V0.X.X 🌟
+> 🎉 梦想着有一天，在同一个平台上能畅听所有心仪的旋律。
 
-::: warning
-这只是基于MusicFree制作的简繁音乐插件，简繁音乐与MusicFree并无任何关联，故产生的一切责任都与MusicFree以及他的开发者无关！
+::: warning 警告 ⚠️
+请记住，简繁音乐插件是独立小伙伴哦，和MusicFree或它的创造者们没有任何血缘关系。如果这个顽皮的插件不小心给你添麻烦了，那真的和MusicFree的开发者们没有关系哦！
 :::
 
-## 如何安装程序
-您可以直接点击蓝色链接下载MusicFree安装包并进行安装！
- [MusicFree安装包](https://cdn.sayqz.com/csm/musicfree.apk)
-## 如何使用插件
-在此，我们直接给出MusicFree官方的插件使用方法！
-![简繁音乐V2.0.0](https://s11.ax1x.com/2024/01/16/pFF53ss.png "pic")
-若想体验由简繁音乐提供的服务，您需点击 **从网络安装** 按钮，然后在弹出的输入框中输入https://csm.sayqz.com/js/app/app.js 并确定安装，安装完成后您就可以享受由简繁音乐提供的免费音乐服务了！
+## 安装 MusicFree 📲
+来吧，点一下这个亮晶晶的链接，下载MusicFree的宝盒（也就是安装包），然后按图索骥安装起来！
+[🚀 下载 MusicFree 安装包](https://cdn.sayqz.com/csm/musicfree.apk)
+
+## 使用简繁音乐插件 🔌
+只需跳跃四步，就能够启用简繁音乐插件，让你的音乐体验丰富起来：
+1. 打开MusicFree应用。👆
+2. 找到并选择 **从网络安装** 的神秘按钮。🔍
+3. 在弹出的神奇输入框里，贴上这串魔法代码：
+   ```
+   https://csm.sayqz.com/js/app/app.js
+   ```
+   然后按下确定！🌈
+4. 坐稳，准备好享受简繁音乐插件带来的免费音乐盛宴吧。🎶
+
+![简繁音乐](https://s11.ax1x.com/2024/01/16/pFF53ss.png "Let the music play!")
+
+按照这些快乐的步骤，一首接一首的好歌就能在简繁音乐的陪伴下，环绕在你的生活中啦！
