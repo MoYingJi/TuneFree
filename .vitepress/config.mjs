@@ -53,29 +53,6 @@ export default defineConfig({
         },
       },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: ' 网页端', link: 'https://pt.sayqz.com' },
-      { text: 'QQ群', link: 'https://qm.qq.com/cgi-bin/qm/qr?k=-u9iXpQhEL7vvjZ378UPxdT1i2RJNRTx&jump_from=webapi&authKey=mgKmYSJCsHnaxAilZjoMaukCyiKS2OTmHhvO7pxEad8KF6F9Ihmg359iFV/560B3' }
-    ],
-
-    sidebar: [
-      {
-        text: '💻Windows客户端',
-        items: [
-          { text: '介绍', link: '/page/windows/install' },
-          { text: '简繁音乐', link: '/page/windows/CSMusic' },
-          { text: '常见问题', link: '/page/windows/help' }
-        ]
-      },
-      {
-        text: '📱Musicfree安卓插件',
-        items: [
-          { text: '如何使用插件', link: '/page/musicfree/install' },
-          { text: '常见问题', link: '/page/musicfree/help' }
-        ]
-      }
-    ],
-
     socialLinks: [
       { 
         icon: {
